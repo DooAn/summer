@@ -1,0 +1,139 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:14px;font-weight:500;color:#252842;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%; font-family: Montserrat;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+._container {
+	max-width: 1046px;
+	margin: 0px auto;
+	padding: 0px 15px;
+	box-sizing: content-box;
+}
+.ibg {
+	position: relative;
+}
+.ibg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+.header {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 50;
+}
+.header__container {
+	display: flex;
+	min-height: 104px;
+	align-items: center;
+
+}
+@media (max-width: 479px){
+	.header__container {
+		min-height: 70px;
+	}
+}
+.header__logo {
+	font-size: 24px;
+	font-weight: 700;
+	color: inherit;
+}
+.header__menu {
+	margin: 0px 0px 0px 133px;
+}
+@media (max-width: 992px){
+	.header__menu {	margin: 0px 0px 0px 80px;}
+}
+@media (max-width: 767px){
+	.header__menu {	margin: 0px 0px 0px 40px;}
+}
+@media (max-width: 479px){
+	.header__menu {	margin: 0px 0px 0px 20px;}
+}
+.menu {
+	padding: 5px 0;
+}
+.menu__list {
+	flex-wrap: wrap;
+	display: flex;
+}
+.menu__item{
+
+}
+.menu__item:not(:last-child) {
+	margin: 0px 21px 0px 0px;
+}
+.menu__link {
+	columns: #737373;
+	font-weight: 600;
+	line-height: 171%;
+}
+@media (max-width: 479px){
+	.menu__link {
+		font-size: 18px;
+}
+}
+/*--------------------*/
+.page {
+	flex: 1 1 auto;
+}
+.page__main-block {}
+/*--------------------*/
+.footer {
+
+}
+
+/*--------------------*/
+
+.main-block {
+	position: relative;
+}
+.main-block__container {}
+._container {}
+.main-block__body {
+	padding: 184px 0px 191px 0px;
+	position: relative;
+	z-index: 2;
+}
+.main-block__ {}
+.main-block__title {
+	font-size: 58px;
+	line-height: 171%;
+	font-weight: 800;
+}
+.main-block__text {}
+.main-block__buttons {}
+.main-block__button {}
+.main-block__button_border {}
+.main-block__image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+
+}
