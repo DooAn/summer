@@ -4,7 +4,7 @@
 :focus,:active{outline:none;}
 a:focus,a:active{outline:none;}
 nav,footer,header,aside{display:block;}
-html,body{height:100%;width:100%;font-size:14px;font-weight:500;color:#252842;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%; font-family: Montserrat;}
+html,body{background: #fafafa;height:100%;width:100%;font-size:14px;font-weight:500;color:#252842;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%; font-family: Montserrat;}
 input,button,textarea{font-family:inherit;}
 input::-ms-clear{display:none;}
 button{cursor:pointer;}
@@ -97,7 +97,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 		font-size: 18px;
 }
 }
-/*--------------------*/
+/*---------page-----------*/
 .page {
 	flex: 1 1 auto;
 }
@@ -109,12 +109,32 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 	z-index: 2;
 	margin: -111px 0px 0px 0px;
 }
-/*--------------------*/
+.page_advantages {}
+
+/*---------header-block-----------*/
+
+.header-block {
+	text-align: center;	
+	letter-spacing: 0.2px;	
+}
+.header-block__title {
+	font-size: 40px;
+	line-height: 142%;
+	font-weight: 700;
+}
+.header-block__title:not(:last-child){
+	margin: 0px 0px 10px 0px;
+}
+.header-block__sub-titlte {
+	color: #737373;
+}
+
+/*-------footer-------------*/
 .footer {
 
 }
 
-/*--------------------*/
+/*--------main-block------------*/
 
 .main-block {
 	position: relative;
@@ -221,7 +241,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 	}
 }
 
-/*--------------------------------------------*/
+/*---------------services-----------------------------*/
 
 .services {
 }
@@ -302,4 +322,47 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 .item-service__text {
 	color: #737373;
 	line-height: 142%;
+}
+/*------------------advantages--------------------------*/
+
+.advantages {
+	padding: 80px 0;
+}
+.advantages__container {}
+.advantages__header {
+	margin: 0px 0px 50px 0px;
+}
+.advantages__body {
+	display: flex;
+	margin: 0px -15px;
+}
+.advantages__column {
+	padding: 0px 15px;
+	flex: 0 1 25%;
+}
+.advantages__item {
+	background-color: #fff;
+	padding: 30px 40px;
+	text-align: center;
+	font-weight: 700;
+}
+.advantages__item > *:not(:last-child){
+	margin: 0px 0px 10px 0px;
+}
+.advantages__icon {
+	height: 48px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+.advantages__value {
+	font-size: 40px;
+	line-height: 142%;
+
+}
+.advantages__text {
+	letter-spacing: 0.1px;
+	color: #737373;
+	font-size: 16px;
+	line-height: 150%;
 }
