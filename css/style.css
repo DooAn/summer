@@ -868,3 +868,89 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 .contact__button:hover{
 	background-color: #aa5330;
 }
+
+/*------------------footer--------------------------*/
+.footer {
+}
+
+.footer__top {
+	background: #17213C;
+	padding: 50px 0px;
+}
+
+.footer__main {
+	
+}
+.footer__row {
+	display: flex;
+	margin: 0px -15px;
+}
+
+.footer__column {
+	padding: 0px 15px;
+	flex: 0 1 20%;
+}
+
+.footer__label {
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	margin: 0px 20px 0px 0px;
+}
+
+.footer__menu.menu-footer {
+}
+
+.footer__list {
+}
+
+.menu-footer__item {
+}
+
+.menu-footer__link {
+	color: #fff;
+	letter-spacing: 0.2px;
+}
+
+.footer__contacts {
+}
+.contacts-footer {
+	display: flex;
+	flex-direction: column;
+}
+.contacts-footer__item {
+	padding: 0px 0px 0px 34px;
+	display: flex;
+	align-items: center;
+	column-fill: #ffff;
+	min-height: 30px;
+
+}	
+.contacts-footer__item:not(:last-child) {
+	margin: 0px 0px 12px 0px;
+}
+.contacts-footer__item_phone {
+	background: url('../img/footer/1.svg') left no-repeat;
+}
+.contacts-footer__item_map {
+	background: url('../img/footer/2.svg') left no-repeat;
+}
+.contacts-footer__item_mail {
+	background: url('../img/footer/3.svg') left no-repeat;
+}
+
+.footer__bottom {
+}
+
+.footer__container._container {
+}
+
+.footer__copy {
+}
+
+.footer__social.social {
+}
+
+.social__item {
+}
